@@ -1,8 +1,35 @@
 body {
     font-family: courier New;
+    background-color: rgb(255, 215, 167);
+
 }
 
-nav > a {
-    color: red;
+.navContainer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: aquamarine;
+    border: solid 1px black;
+    
+}
+
+#name {
+    font-size: 40px;
+    float: right;
+    color: brown;
+}
+
+.navbar {
+    float: left;
+    font-size: 40px;
+}
+
+.navbar a {
     text-decoration: none;
+    color: red;
+}
+
+.content {
+    margin-top: 100px;
 }

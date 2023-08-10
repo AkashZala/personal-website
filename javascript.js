@@ -1,1 +1,2 @@
-console.log("Welcome to my personal web site!")
+const msg = 'Welcome to my personal web site, hope you learn a little about me!';
+console.log(msg);
