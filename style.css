@@ -1,6 +1,7 @@
 body {
     font-family: courier New;
     background-color: rgb(4, 67, 39);
+    margin-bottom: 5%;
 
 }
 
@@ -28,16 +29,17 @@ body {
     font-size: 40px;
 }
 
-.navbar a {
+.navbar > a {
     text-decoration: none;
     color: rgb(4, 67, 39);
     
 }
 
 .content {
+    font-size: larger;
     border: solid 2px white;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-top: 100px;
     margin-left: 4%;
     margin-right: 4%;
@@ -72,8 +74,8 @@ nav > a.active {
 
 .quote {
     font-family: bradley hand;
+    font-size: 3rem;
     text-align: center;
-    font-size: large;
     font-weight:bold;
     font-style: italic;
 }
@@ -88,28 +90,31 @@ img {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width:25%;
-}
+    width:25%; 
+}  
 
 h3{
 font-weight:bold;
 }
 
 .absec {
-    border: solid 1px white;
+    border-top: solid 1px white;
     padding-left: 4%;
     padding-right: 4%;
-    margin-top: 50px;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-top: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
     color: whitesmoke;
     background-color: rgb(4, 67, 39);
+    overflow: hidden;
 }
+
 
 .psec {
     border: solid 1px white;
     padding-left: 4%;
     padding-right: 4%;
+    padding-bottom: 2%;
     margin-top: 20px;
     margin-left: 4%;
     margin-right: 4%;
@@ -117,12 +122,17 @@ font-weight:bold;
     background-color: rgb(4, 67, 39);
 }
 
-/* section:nth-of-type(odd) > img {
-  float: left;
-  margin: 0 24px 24px 0;
+.absec:nth-of-type(odd) > img {
+    float: left;
+    width: 20%;
+    padding-right: 2%;
+    padding-bottom: 3%;
 }
 
 
-section:nth-of-type(even) > img {
-  float: right;
-  margin: 0 0 24px 24px; */
+.absec:nth-of-type(even) > img {
+    float: right;
+    width: 20%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+ }
